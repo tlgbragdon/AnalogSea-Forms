@@ -5,23 +5,25 @@
 	<title>AnalogSea SignUp Form</title>
 	<meta name="description" content="Sign Up for an AnalogSea Account">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 	<!-- Stylesheet -->
 	<link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
 	<img class="logo-header" src="images/logo.png">
 	
-	<form action="/signup" method="post" class=signup-form>
+	<form action="/signup/" method="post" class=signup-form>
 		<div class="form-title center">
-			Sign Up
+			Sign up
 		</div>
 		<div class="form-field">
 			<label for="email">Email</label>
-			<input type="email" id="email" name="user_email" placeholder="foo@bar.com">
+			<input type="email" id="email" name="user_email" placeholder="foo@bar.com" required>
 		</div>
 		<div class="form-field">	
 			<label for="pw">Password</label>
-			<input type="text" id="pw" name="user-pw" placeholder="1234passw0rd">
+			<input type="text" id="pw" name="user-pw" placeholder="1234passw0rd" required>
 		</div>
 		<div>
 			<button class="button white" type="signup">Sign up</button>
