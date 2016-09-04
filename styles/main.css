@@ -7,7 +7,6 @@ body {
     font-family: 'Roboto', sans-serif;
 	background-color: #3F94E7;
 	width: 100%;
-	height: 75px;
 }
 
 .logo-header {
@@ -28,9 +27,9 @@ body {
 }
 
 .form-title {
-	font-size: 50px;
+	font-size: 35px;
 	color: gray;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 .form-field > label {
@@ -58,7 +57,7 @@ body {
 	border: 2px solid #65c470;
 	border-radius: 5px;
 	text-align: center;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 700;
 }
 
